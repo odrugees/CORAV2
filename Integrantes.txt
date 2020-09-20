@@ -1,3 +1,7 @@
 Name: German Naranjo
 Code: 1710010939
 Email: genaranjo2@poligran.edu.co
+
+Name: Oscar Ruge
+Code: 1420010529
+Email: odrugees@poligran.edu.co
