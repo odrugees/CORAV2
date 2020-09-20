@@ -5,3 +5,7 @@ Email: genaranjo2@poligran.edu.co
 Name: Oscar Ruge
 Code: 1420010529
 Email: odrugees@poligran.edu.co
+
+Name: Ana Sativa
+Code: 1720010629
+Email: ansativa@poligran.edu.co
