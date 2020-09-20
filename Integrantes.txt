@@ -13,3 +13,7 @@ Email: ansativa@poligran.edu.co
 Name: Yeison Hernandez
 Code: 1110014306
 Email: yfhernandez@poligran.edu.co
+
+Name: Jonathan Escobar
+Code: 1110010686
+Email: joescobarr@poligran.edu.co
