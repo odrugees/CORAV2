@@ -1,5 +1,5 @@
 const dbManager = require ('../database/db.manager');
-const bcrypt = require("bcrypt-nodejs");
+
 
 /**
  * Crear Usuario
@@ -12,20 +12,6 @@ async function crearUsuario (req, res) {
         });
         return;
     }
-
-
-  function cryptPassword(req.body.usuarioContrasenia) {
-  console.log("cryptPassword" + password);
-  return new Promise(function(resolve, reject) {
-    bcrypt.genSalt(10, function(err, salt) {
-      // Encrypt password using bycrpt module
-      if (err) return reject(err);
-
-      bcrypt.hash(password, salt, null, function(err, hash) {
-        if (err) return reject(err);
-        return resolve(hash);
-      });
-    });
     // Crear objeto
     const nuevoUsuario = {
         usuarioNombre: req.body.usuarioNombre,
@@ -34,7 +20,6 @@ async function crearUsuario (req, res) {
         usuarioContrasenia: req.body.usuarioContrasenia,
         usuarioEstado: req.body.usuarioEstado,
         usuarioTipo: req.body.usuarioTipo
-
     }
 
     //Ejecucion metodo
