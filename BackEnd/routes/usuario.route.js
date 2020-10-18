@@ -2,11 +2,22 @@ var express = require('express');
 var router = express.Router();
 const usuarioController = require ('../controllers/usuario.controller');
 
-/* POST new users listing. */
-router.post('/', usuarioController.crearUsuario);
-/**
- * GET Route to list all users
- */
+
+/*GET RETORNAR USUARIOS*/
 router.get('/', usuarioController.retornarUsuarios);
+
+/*GET RETORNAR USUARIO POR ID*/
+router.get('/:usuarioId', usuarioController.retonarUsuario);
+
+
+/* POST CREAR USUARIO */
+router.post('/', usuarioController.crearUsuario);
+
+/* PUT ACTULIZAR USUARIO */
+router.put('/:usuarioId', usuarioController.actualizarUsuario);
+
+/* DELETE ELIMINAR USUARIO CAMBIO ESTADO*/
+router.delete('/:usuarioId', usuarioController.eliminarUsuario);
+
 
 module.exports = router;

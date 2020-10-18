@@ -1,18 +1,18 @@
 const dbManager = require ('../database/db.manager');
 
 /**
- * Retonar todos los Usuario
+ * Retonar todos los Grupos
  */
-async function retornarUsuarios (req, res){
+async function retornarGrupos(req, res){
     try {
         //Ejecucion metodo
-        const usuarios = await dbManager.Usuario.findAll ({
+        const grupos = await dbManager.Grupo.findAll ({
           where: {
-              usuarioEstado: 'A',
+              grupoEstado: 'A',
           }
         });
 
-        res.json(usuarios);
+        res.json(grupos);
 
     } catch (e) {
         console.log(e);
@@ -23,15 +23,15 @@ async function retornarUsuarios (req, res){
     }
 }
 
-/* Retonar Usuario por Id*/
-async function retonarUsuario (req, res){
+/* Retonar Grupo por Id*/
+async function retonarGrupo (req, res){
     try {
-        const { usuarioId } = req.params;
+        const { grupoId } = req.params;
 
         //Ejecucion metodo
-        const usuario = await dbManager.Usuario.findOne({
+        const usuario = await dbManager.Grupo.findOne({
             where: {
-                usuarioId: usuarioId
+                grupoId: grupoId
             }
         });
         res.json(usuario);
@@ -45,9 +45,9 @@ async function retonarUsuario (req, res){
     }
 }
 /**
- * Crear Usuario
+ * Crear Grupo
  */
-async function crearUsuario (req, res) {
+async function crearGrupo (req, res) {
     // Validar parametros
     if (!req.body) {
         res.status(400).send({
@@ -56,17 +56,14 @@ async function crearUsuario (req, res) {
         return;
     }
     // Crear objeto
-    const nuevoUsuario = {
-        usuarioNombre: req.body.usuarioNombre,
-        usuarioApellido: req.body.usuarioApellido,
-        usuarioCorreo: req.body.usuarioCorreo,
-        usuarioContrasenia: req.body.usuarioContrasenia,
-        usuarioEstado: 'A',
-        usuarioTipo: req.body.usuarioTipo
+    const nuevoGrupo = {
+        grupoNombre: req.body.grupoNombre,
+        grupoEstado: "A",
+        carreraObservacionId: req.body.carreraObservacionId
     }
 
     //Ejecucion metodo
-    dbManager.Usuario.create(nuevoUsuario).then (
+    dbManager.Grupo.create(nuevoGrupo).then (
         data => {
             res.send (data);
         }
@@ -82,9 +79,9 @@ async function crearUsuario (req, res) {
 }
 
 /**
- * Actualizar Usuario por Id
+ * Actualizar Grupo por Id
  */
-async function actualizarUsuario (req, res){
+async function actualizarGrupo (req, res){
   // Validar parametros
   if (!req.body) {
       res.status(400).send({
@@ -93,18 +90,15 @@ async function actualizarUsuario (req, res){
       return;
   }
   try {
-      const { usuarioId } = req.params;
+      const { grupoId } = req.params;
 
       //Ejecucion metodo
-      const resultado = await dbManager.Usuario.update({
-        usuarioNombre: req.body.usuarioNombre,
-        usuarioApellido: req.body.usuarioApellido,
-        usuarioCorreo: req.body.usuarioCorreo,
-        usuarioContrasenia: req.body.usuarioContrasenia,
-        usuarioEstado: req.body.usuarioEstado,
-        usuarioTipo: req.body.usuarioTipo
+      const resultado = await dbManager.Grupo.update({
+        grupoNombre: req.body.grupoNombre,
+        grupoEstado:  req.body.grupoEstado,
+        carreraObservacionId: req.body.carreraObservacionId
        },{
-         where: {usuarioId: usuarioId}
+         where: {grupoId: grupoId}
        })
       if(resultado==1)
         {res.status(200).json({
@@ -126,9 +120,9 @@ async function actualizarUsuario (req, res){
 }
 
 /**
- * Elimianr Usuario por Id "Cambio estado I"
+ * Elimianr Grupo por Id "Cambio estado I"
  */
-async function eliminarUsuario (req, res){
+async function eliminarGrupo (req, res){
   // Validar parametros
   if (!req.body) {
       res.status(400).send({
@@ -137,13 +131,13 @@ async function eliminarUsuario (req, res){
       return;
   }
   try {
-      const { usuarioId } = req.params;
+      const { grupoId } = req.params;
 
       //Ejecucion metodo
-      const resultado = await dbManager.Usuario.update({
-        usuarioEstado: 'I'
+      const resultado = await dbManager.Grupo.update({
+        grupoEstado: 'I'
        },{
-         where: {usuarioId: usuarioId}
+         where: {grupoId: grupoId}
        })
       if(resultado==1)
         {res.status(200).json({
@@ -164,8 +158,8 @@ async function eliminarUsuario (req, res){
   }
 }
 
-exports.retornarUsuarios = retornarUsuarios;
-exports.retonarUsuario = retonarUsuario;
-exports.crearUsuario = crearUsuario;
-exports.actualizarUsuario = actualizarUsuario;
-exports.eliminarUsuario = eliminarUsuario;
+exports.retornarGrupos = retornarGrupos;
+exports.retonarGrupo = retonarGrupo;
+exports.crearGrupo = crearGrupo;
+exports.actualizarGrupo = actualizarGrupo;
+exports.eliminarGrupo = eliminarGrupo;
