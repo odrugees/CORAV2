@@ -1,6 +1,6 @@
 {
   "name": "backend",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
@@ -8,9 +8,27 @@
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
-    "express": "~4.16.1",
+    "express": "^4.17.1",
     "morgan": "~1.9.1",
     "mysql2": "^2.2.5",
+    "nodemailer": "^6.4.14",
     "sequelize": "^6.3.5"
-  }
+  },
+  "description": "Proyecto CORA",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odrugees/CORAV2.git"
+  },
+  "keywords": [
+    "Realidad",
+    "Aumentada"
+  ],
+  "author": "Grupo CORA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/odrugees/CORAV2/issues"
+  },
+  "homepage": "https://github.com/odrugees/CORAV2#readme"
 }

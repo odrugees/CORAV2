@@ -8,6 +8,7 @@ var indexRouter = require('./routes/index');
 var usuarioRouter = require('./routes/usuario.route');
 var carreraRouter = require('./routes/carreraObservacion.route');
 var grupoRouter = require('./routes/grupo.route');
+var correoRouter = require('./routes/envioCorreo.route');
 
 var app = express();
 
@@ -23,6 +24,7 @@ app.use('/', indexRouter);
 app.use('/usuario', usuarioRouter);
 app.use('/carreraObservacion', carreraRouter);
 app.use('/grupo', grupoRouter);
+app.use('/correo', correoRouter);
 
 dbManager.sequelizeConnection.authenticate()
   .then(() => {
