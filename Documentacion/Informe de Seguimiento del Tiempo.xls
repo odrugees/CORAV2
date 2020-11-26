@@ -1,0 +1,1515 @@
+
+
+
+
+
+
+<html>
+<head>
+    <title>Informe de Seguimiento del Tiempo</title>
+    <meta name="decorator" content="none" />
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-excel; charset=UTF-8" />
+</head>
+<body>
+
+<table id="time_tracking_report_table" border="1">
+<tr>
+    <td bgcolor="#205081" colspan="15" height=30>
+        <img src="/images/icon-jira-software-logo.png" width="57" height="30" border="0" alt="Jira">
+    </td>
+</tr>
+<tr>
+    <td bgcolor=#ffffff colspan="15">
+        <a href=""><span class="bluetext">Jira</span></a>
+    </td>
+</tr>
+<tr>
+    <th bgcolor="#dddddd">Tipo de Incidencia</th>
+    <th bgcolor="#dddddd"><b>Clave</b></th>
+    <th bgcolor="#dddddd"><b>Estado</b></th>
+    <th bgcolor="#dddddd"><b>Prioridad</b></th>
+    <th bgcolor="#dddddd"><b>Resumen</b></th>
+    <th bgcolor="#dddddd"><b>Estimación Temporal Original (min)</b></th>
+            <th bgcolor="#dddddd">Σ</th>
+        <th bgcolor="#dddddd"><b>Tiempo Restante Estimado (min)</b></th>
+            <th bgcolor="#dddddd">Σ</th>
+        <th bgcolor="#dddddd"><b>Tiempo total empleado (min)</b></th>
+            <th bgcolor="#dddddd">Σ</th>
+        <th bgcolor="#dddddd"><b>Precisión</b></th>
+            <th bgcolor="#dddddd">Σ</th>
+        <th bgcolor="#dddddd"><b>Precisión (%)</b></th>
+            <th bgcolor="#dddddd">Σ</th>
+    </tr>
+
+    <tr valign="top">
+    <td>
+                Historia</td>
+    <td><a href="/browse/COR-11">COR-11</a></td>
+    <td>Finalizada</td>
+    <td>Medium</td>
+    <td>
+                HU 03 - Definición modelo de datos
+    </td>
+    <td></td>
+            <td>
+                            180
+                    </td>
+        <td></td>
+            <td>
+                            0
+                    </td>
+        <td></td>
+            <td>
+                            180
+                    </td>
+        <td>
+            </td>
+            <td>
+                            0
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Subtarea</td>
+    <td><a href="/browse/COR-21">COR-21</a></td>
+    <td>Finalizada</td>
+    <td>Medium</td>
+    <td>
+                                -&gt;
+                Definir diagrama modelo de datos
+    </td>
+    <td>120</td>
+            <td>
+                    </td>
+        <td>0</td>
+            <td>
+                    </td>
+        <td>120</td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Subtarea</td>
+    <td><a href="/browse/COR-22">COR-22</a></td>
+    <td>Finalizada</td>
+    <td>Medium</td>
+    <td>
+                                -&gt;
+                Definir Diccionarios de datos
+    </td>
+    <td>60</td>
+            <td>
+                    </td>
+        <td>0</td>
+            <td>
+                    </td>
+        <td>60</td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Historia</td>
+    <td><a href="/browse/COR-9">COR-9</a></td>
+    <td>Finalizada</td>
+    <td>Medium</td>
+    <td>
+                HU 01 - Configuración repositorios
+    </td>
+    <td>60</td>
+            <td>
+                            110
+                    </td>
+        <td>0</td>
+            <td>
+                            5
+                    </td>
+        <td></td>
+            <td>
+                            45
+                    </td>
+        <td>
+                    
+            </td>
+            <td>
+                            60
+                    </td>
+        <td>
+                    100
+            </td>
+            <td>
+                            54
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Subtarea</td>
+    <td><a href="/browse/COR-15">COR-15</a></td>
+    <td>Finalizada</td>
+    <td>Medium</td>
+    <td>
+                                -&gt;
+                Se debe crear un repositorio en la aplicación GitHub
+    </td>
+    <td>30</td>
+            <td>
+                    </td>
+        <td>0</td>
+            <td>
+                    </td>
+        <td>30</td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Subtarea</td>
+    <td><a href="/browse/COR-16">COR-16</a></td>
+    <td>Finalizada</td>
+    <td>Medium</td>
+    <td>
+                                -&gt;
+                Se deben asignar permiso a todos lo colaboradores en el repositorio de la aplicación GitHub
+    </td>
+    <td>10</td>
+            <td>
+                    </td>
+        <td>0</td>
+            <td>
+                    </td>
+        <td>10</td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Subtarea</td>
+    <td><a href="/browse/COR-17">COR-17</a></td>
+    <td>Finalizada</td>
+    <td>Medium</td>
+    <td>
+                                -&gt;
+                Generar URL de conexión al repositorio
+    </td>
+    <td>10</td>
+            <td>
+                    </td>
+        <td>5</td>
+            <td>
+                    </td>
+        <td>5</td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Historia</td>
+    <td><a href="/browse/COR-10">COR-10</a></td>
+    <td>Finalizada</td>
+    <td>Medium</td>
+    <td>
+                HU 02 - Configuración IDE
+    </td>
+    <td></td>
+            <td>
+                            610
+                    </td>
+        <td></td>
+            <td>
+                            5
+                    </td>
+        <td></td>
+            <td>
+                            635
+                    </td>
+        <td>
+            </td>
+            <td>
+                            -30
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Subtarea</td>
+    <td><a href="/browse/COR-18">COR-18</a></td>
+    <td>Finalizada</td>
+    <td>Medium</td>
+    <td>
+                                -&gt;
+                Instalación IDE Atom
+    </td>
+    <td>120</td>
+            <td>
+                    </td>
+        <td>0</td>
+            <td>
+                    </td>
+        <td>150</td>
+            <td>
+                    </td>
+        <td>
+                    -30
+            </td>
+            <td>
+                    </td>
+        <td>
+                    -25
+            </td>
+            <td>
+                            -25
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Subtarea</td>
+    <td><a href="/browse/COR-19">COR-19</a></td>
+    <td>Finalizada</td>
+    <td>Medium</td>
+    <td>
+                                -&gt;
+                Instalación IDE Android Studio
+    </td>
+    <td>180</td>
+            <td>
+                    </td>
+        <td>0</td>
+            <td>
+                    </td>
+        <td>180</td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Subtarea</td>
+    <td><a href="/browse/COR-20">COR-20</a></td>
+    <td>Finalizada</td>
+    <td>Medium</td>
+    <td>
+                                -&gt;
+                Instalar motor de datos MySQL
+    </td>
+    <td>60</td>
+            <td>
+                    </td>
+        <td>0</td>
+            <td>
+                    </td>
+        <td>60</td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Subtarea</td>
+    <td><a href="/browse/COR-24">COR-24</a></td>
+    <td>Finalizada</td>
+    <td>Medium</td>
+    <td>
+                                -&gt;
+                Instalación IDE Unity
+    </td>
+    <td>240</td>
+            <td>
+                    </td>
+        <td>0</td>
+            <td>
+                    </td>
+        <td>240</td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Subtarea</td>
+    <td><a href="/browse/COR-25">COR-25</a></td>
+    <td>Finalizada</td>
+    <td>Medium</td>
+    <td>
+                                -&gt;
+                Creación Usuario Software Vuforia
+    </td>
+    <td>10</td>
+            <td>
+                    </td>
+        <td>5</td>
+            <td>
+                    </td>
+        <td>5</td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Historia</td>
+    <td><a href="/browse/COR-13">COR-13</a></td>
+    <td>Finalizada</td>
+    <td>Medium</td>
+    <td>
+                HU 05 - Creación de API-Rest
+    </td>
+    <td></td>
+            <td>
+                            600
+                    </td>
+        <td>90</td>
+            <td>
+                            333
+                    </td>
+        <td></td>
+            <td>
+                            760
+                    </td>
+        <td>
+            </td>
+            <td>
+                            -493
+                    </td>
+        <td>
+            </td>
+            <td>
+                            -82
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Subtarea</td>
+    <td><a href="/browse/COR-46">COR-46</a></td>
+    <td>Finalizada</td>
+    <td>Medium</td>
+    <td>
+                                -&gt;
+                Crear API Rest para la tabla Estadísticas 
+    </td>
+    <td>90</td>
+            <td>
+                    </td>
+        <td>0</td>
+            <td>
+                    </td>
+        <td>520</td>
+            <td>
+                    </td>
+        <td>
+                    -430
+            </td>
+            <td>
+                    </td>
+        <td>
+                    -477
+            </td>
+            <td>
+                            -477
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Subtarea</td>
+    <td><a href="/browse/COR-41">COR-41</a></td>
+    <td>Finalizada</td>
+    <td>Medium</td>
+    <td>
+                                -&gt;
+                Crear API Rest Usuario
+    </td>
+    <td>90</td>
+            <td>
+                    </td>
+        <td>13</td>
+            <td>
+                    </td>
+        <td>50</td>
+            <td>
+                    </td>
+        <td>
+                    27
+            </td>
+            <td>
+                    </td>
+        <td>
+                    30
+            </td>
+            <td>
+                            30
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Subtarea</td>
+    <td><a href="/browse/COR-43">COR-43</a></td>
+    <td>Finalizada</td>
+    <td>Medium</td>
+    <td>
+                                -&gt;
+                Crear API Rest para la tabla Estación 
+    </td>
+    <td>60</td>
+            <td>
+                    </td>
+        <td>20</td>
+            <td>
+                    </td>
+        <td>40</td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Subtarea</td>
+    <td><a href="/browse/COR-42">COR-42</a></td>
+    <td>Finalizada</td>
+    <td>Medium</td>
+    <td>
+                                -&gt;
+                Crear API Rest para la tabla CarreraObservacion 
+    </td>
+    <td>90</td>
+            <td>
+                    </td>
+        <td>50</td>
+            <td>
+                    </td>
+        <td>40</td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Subtarea</td>
+    <td><a href="/browse/COR-45">COR-45</a></td>
+    <td>Finalizada</td>
+    <td>Medium</td>
+    <td>
+                                -&gt;
+                Crear API Rest para la tabla GrupoIntegrante 
+    </td>
+    <td>90</td>
+            <td>
+                    </td>
+        <td>50</td>
+            <td>
+                    </td>
+        <td>40</td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Subtarea</td>
+    <td><a href="/browse/COR-47">COR-47</a></td>
+    <td>Finalizada</td>
+    <td>Medium</td>
+    <td>
+                                -&gt;
+                 Crear API Rest para la tabla ParametrosSistema 
+    </td>
+    <td>90</td>
+            <td>
+                    </td>
+        <td>50</td>
+            <td>
+                    </td>
+        <td>40</td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Subtarea</td>
+    <td><a href="/browse/COR-44">COR-44</a></td>
+    <td>Finalizada</td>
+    <td>Medium</td>
+    <td>
+                                -&gt;
+                Crear API Rest para la tabla Grupo
+    </td>
+    <td>90</td>
+            <td>
+                    </td>
+        <td>60</td>
+            <td>
+                    </td>
+        <td>30</td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Historia</td>
+    <td><a href="/browse/COR-12">COR-12</a></td>
+    <td>Finalizada</td>
+    <td>Medium</td>
+    <td>
+                HU 04 - Creación modelo de datos 
+    </td>
+    <td></td>
+            <td>
+                            690
+                    </td>
+        <td>690</td>
+            <td>
+                            1170
+                    </td>
+        <td></td>
+            <td>
+                            160
+                    </td>
+        <td>
+            </td>
+            <td>
+                            -640
+                    </td>
+        <td>
+            </td>
+            <td>
+                            -92
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Subtarea</td>
+    <td><a href="/browse/COR-39">COR-39</a></td>
+    <td>Finalizada</td>
+    <td>Medium</td>
+    <td>
+                                -&gt;
+                Crear tabla Estadísticas proyecto Node, replicar en BD 
+    </td>
+    <td>60</td>
+            <td>
+                    </td>
+        <td>0</td>
+            <td>
+                    </td>
+        <td>70</td>
+            <td>
+                    </td>
+        <td>
+                    -10
+            </td>
+            <td>
+                    </td>
+        <td>
+                    -16
+            </td>
+            <td>
+                            -16
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Subtarea</td>
+    <td><a href="/browse/COR-40">COR-40</a></td>
+    <td>Finalizada</td>
+    <td>Medium</td>
+    <td>
+                                -&gt;
+                Crear tabla ParametrosSistema proyecto Node, replicar en BD 
+    </td>
+    <td>60</td>
+            <td>
+                    </td>
+        <td>0</td>
+            <td>
+                    </td>
+        <td>20</td>
+            <td>
+                    </td>
+        <td>
+                    40
+            </td>
+            <td>
+                    </td>
+        <td>
+                    66
+            </td>
+            <td>
+                            66
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Subtarea</td>
+    <td><a href="/browse/COR-32">COR-32</a></td>
+    <td>Finalizada</td>
+    <td>Medium</td>
+    <td>
+                                -&gt;
+                Crear Base de datos en MySQL
+    </td>
+    <td>30</td>
+            <td>
+                    </td>
+        <td>30</td>
+            <td>
+                    </td>
+        <td>0</td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Subtarea</td>
+    <td><a href="/browse/COR-36">COR-36</a></td>
+    <td>Finalizada</td>
+    <td>Medium</td>
+    <td>
+                                -&gt;
+                Crear tabla Estación proyecto Node, replicar en BD 
+    </td>
+    <td>60</td>
+            <td>
+                    </td>
+        <td>30</td>
+            <td>
+                    </td>
+        <td>30</td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Subtarea</td>
+    <td><a href="/browse/COR-35">COR-35</a></td>
+    <td>Finalizada</td>
+    <td>Medium</td>
+    <td>
+                                -&gt;
+                Crear tabla CarreraObservacion proyecto Node, replicar en BD 
+    </td>
+    <td>60</td>
+            <td>
+                    </td>
+        <td>40</td>
+            <td>
+                    </td>
+        <td>0</td>
+            <td>
+                    </td>
+        <td>
+                    20
+            </td>
+            <td>
+                    </td>
+        <td>
+                    33
+            </td>
+            <td>
+                            33
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Subtarea</td>
+    <td><a href="/browse/COR-37">COR-37</a></td>
+    <td>Finalizada</td>
+    <td>Medium</td>
+    <td>
+                                -&gt;
+                Crear tabla Grupo proyecto Node, replicar en BD 
+    </td>
+    <td>60</td>
+            <td>
+                    </td>
+        <td>40</td>
+            <td>
+                    </td>
+        <td>20</td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Subtarea</td>
+    <td><a href="/browse/COR-38">COR-38</a></td>
+    <td>Finalizada</td>
+    <td>Medium</td>
+    <td>
+                                -&gt;
+                Crear tabla GrupoIntegrante proyecto Node, replicar en BD 
+    </td>
+    <td>60</td>
+            <td>
+                    </td>
+        <td>40</td>
+            <td>
+                    </td>
+        <td>20</td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Subtarea</td>
+    <td><a href="/browse/COR-34">COR-34</a></td>
+    <td>Finalizada</td>
+    <td>Medium</td>
+    <td>
+                                -&gt;
+                Crear tabla Usuario proyecto Node, replicar en BD 
+    </td>
+    <td>60</td>
+            <td>
+                    </td>
+        <td>60</td>
+            <td>
+                    </td>
+        <td>0</td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Subtarea</td>
+    <td><a href="/browse/COR-31">COR-31</a></td>
+    <td>Finalizada</td>
+    <td>Medium</td>
+    <td>
+                                -&gt;
+                Crear Proyecto Node JS en IDE Atom
+    </td>
+    <td>120</td>
+            <td>
+                    </td>
+        <td>120</td>
+            <td>
+                    </td>
+        <td>0</td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Subtarea</td>
+    <td><a href="/browse/COR-33">COR-33</a></td>
+    <td>Finalizada</td>
+    <td>Medium</td>
+    <td>
+                                -&gt;
+                Crear conexión NodeJS y MySQL
+    </td>
+    <td>120</td>
+            <td>
+                    </td>
+        <td>120</td>
+            <td>
+                    </td>
+        <td>0</td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Historia</td>
+    <td><a href="/browse/COR-14">COR-14</a></td>
+    <td>En curso</td>
+    <td>Medium</td>
+    <td>
+                HU 06 - Demo RA
+    </td>
+    <td></td>
+            <td>
+                            15360
+                    </td>
+        <td>21</td>
+            <td>
+                            9846
+                    </td>
+        <td></td>
+            <td>
+                            5175
+                    </td>
+        <td>
+            </td>
+            <td>
+                            339
+                    </td>
+        <td>
+            </td>
+            <td>
+                            2
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Subtarea</td>
+    <td><a href="/browse/COR-30">COR-30</a></td>
+    <td>Finalizada</td>
+    <td>Medium</td>
+    <td>
+                                -&gt;
+                Validación del uso de código QR en RA 
+    </td>
+    <td>480</td>
+            <td>
+                    </td>
+        <td>180</td>
+            <td>
+                    </td>
+        <td>300</td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Subtarea</td>
+    <td><a href="/browse/COR-29">COR-29</a></td>
+    <td>En curso</td>
+    <td>Medium</td>
+    <td>
+                                -&gt;
+                Creación demo RA Visualizar Texto
+    </td>
+    <td>2880</td>
+            <td>
+                    </td>
+        <td>480</td>
+            <td>
+                    </td>
+        <td>2400</td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Subtarea</td>
+    <td><a href="/browse/COR-23">COR-23</a></td>
+    <td>Finalizada</td>
+    <td>Medium</td>
+    <td>
+                                -&gt;
+                Creación demo RA con imagen 2D
+    </td>
+    <td>2880</td>
+            <td>
+                    </td>
+        <td>1285</td>
+            <td>
+                    </td>
+        <td>1595</td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Subtarea</td>
+    <td><a href="/browse/COR-28">COR-28</a></td>
+    <td>Finalizada</td>
+    <td>Medium</td>
+    <td>
+                                -&gt;
+                Creación demo RA Imagen 3D
+    </td>
+    <td>3360</td>
+            <td>
+                    </td>
+        <td>2300</td>
+            <td>
+                    </td>
+        <td>700</td>
+            <td>
+                    </td>
+        <td>
+                    360
+            </td>
+            <td>
+                    </td>
+        <td>
+                    10
+            </td>
+            <td>
+                            10
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Subtarea</td>
+    <td><a href="/browse/COR-27">COR-27</a></td>
+    <td>En curso</td>
+    <td>Medium</td>
+    <td>
+                                -&gt;
+                Creación demo RA Reproducción de Audio
+    </td>
+    <td>2880</td>
+            <td>
+                    </td>
+        <td>2700</td>
+            <td>
+                    </td>
+        <td>180</td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>            <tr valign="top">
+    <td>
+                    -&gt;
+                Subtarea</td>
+    <td><a href="/browse/COR-26">COR-26</a></td>
+    <td>Finalizada</td>
+    <td>Medium</td>
+    <td>
+                                -&gt;
+                Creación Demo RA Reproducir Video
+    </td>
+    <td>2880</td>
+            <td>
+                    </td>
+        <td>2880</td>
+            <td>
+                    </td>
+        <td></td>
+            <td>
+                    </td>
+        <td>
+                    
+            </td>
+            <td>
+                    </td>
+        <td>
+                    0
+            </td>
+            <td>
+                            0
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Epic</td>
+    <td><a href="/browse/COR-1">COR-1</a></td>
+    <td>Tareas por hacer</td>
+    <td>Medium</td>
+    <td>
+                Como desarrollador deseo poder tener un ambiente de desarrollo configurado para poder realizar modificaciones y nuevas funcionalidades sobre el proyecto.
+    </td>
+    <td></td>
+            <td>
+                            
+                    </td>
+        <td></td>
+            <td>
+                            
+                    </td>
+        <td></td>
+            <td>
+                            
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Epic</td>
+    <td><a href="/browse/COR-2">COR-2</a></td>
+    <td>Tareas por hacer</td>
+    <td>Medium</td>
+    <td>
+                Como administrador del Sistema deseo poder administrar los usuario que van poder crear, modificar o eliminar datos de la aplicación para mantener actualizada las información de los usuarios 
+    </td>
+    <td></td>
+            <td>
+                            
+                    </td>
+        <td></td>
+            <td>
+                            
+                    </td>
+        <td></td>
+            <td>
+                            
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Epic</td>
+    <td><a href="/browse/COR-3">COR-3</a></td>
+    <td>Tareas por hacer</td>
+    <td>Medium</td>
+    <td>
+                Como Profesor deseo poder ingresar desde mi dispositivo móvil para poder tener acceso desde cualquier lugar y momento
+    </td>
+    <td></td>
+            <td>
+                            
+                    </td>
+        <td></td>
+            <td>
+                            
+                    </td>
+        <td></td>
+            <td>
+                            
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Epic</td>
+    <td><a href="/browse/COR-4">COR-4</a></td>
+    <td>Tareas por hacer</td>
+    <td>Medium</td>
+    <td>
+                Como Profesor deseo poder ingresar desde mi dispositivo móvil Para Mantener actualizada la información de las capacitaciones o clases
+    </td>
+    <td></td>
+            <td>
+                            
+                    </td>
+        <td></td>
+            <td>
+                            
+                    </td>
+        <td></td>
+            <td>
+                            
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Epic</td>
+    <td><a href="/browse/COR-5">COR-5</a></td>
+    <td>Tareas por hacer</td>
+    <td>Medium</td>
+    <td>
+                Como Profesor deseo poder administrar administrar los grupos que van a participar en una carrera de observación
+    </td>
+    <td></td>
+            <td>
+                            
+                    </td>
+        <td></td>
+            <td>
+                            
+                    </td>
+        <td></td>
+            <td>
+                            
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Epic</td>
+    <td><a href="/browse/COR-6">COR-6</a></td>
+    <td>Tareas por hacer</td>
+    <td>Medium</td>
+    <td>
+                Como Profesor deseo poder tener una módulo de reportes para poder evidenciar el proceso de los grupos sobre la carrera de observación
+    </td>
+    <td></td>
+            <td>
+                            
+                    </td>
+        <td></td>
+            <td>
+                            
+                    </td>
+        <td></td>
+            <td>
+                            
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Epic</td>
+    <td><a href="/browse/COR-7">COR-7</a></td>
+    <td>Tareas por hacer</td>
+    <td>Medium</td>
+    <td>
+                Como Participante deseo poder ingresar desde mi dispositivo móvil para poder tener acceso desde cualquier lugar y momento
+    </td>
+    <td></td>
+            <td>
+                            
+                    </td>
+        <td></td>
+            <td>
+                            
+                    </td>
+        <td></td>
+            <td>
+                            
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>        <tr valign="top">
+    <td>
+                Epic</td>
+    <td><a href="/browse/COR-8">COR-8</a></td>
+    <td>Tareas por hacer</td>
+    <td>Medium</td>
+    <td>
+                Como Participante deseo interarticular en el App usando RA  para obtener información de cada estación de la carrera. 
+    </td>
+    <td></td>
+            <td>
+                            
+                    </td>
+        <td></td>
+            <td>
+                            
+                    </td>
+        <td></td>
+            <td>
+                            
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+        <td>
+            </td>
+            <td>
+                    </td>
+    </tr>    
+<tr>
+    <td colspan="4" align="right">
+        &nbsp;
+    </td>
+    <td><b>Total</b></td>
+    <td>17550</td>
+            <td>17550</td>
+        <td>11359</td>
+            <td>11359</td>
+        <td>6955</td>
+            <td>6955</td>
+        <td>-764</td>
+            <td>-764</td>
+        <td>-4</td>
+            <td>-4</td>
+    </tr>
+
+<tr>
+    <td bgcolor="#ffffff" colspan="15">&nbsp;</td>
+</tr>
+<tr>
+    <td bgcolor="#dddddd" colspan="15"><font size=1>
+                    Generado el 21/10/20 22:41 por Germán Felipe Naranjo González usando JIRA 1001.0.0-SNAPSHOT#100149-sha1:7090afa0cc8472895b6e3e40caf833f2a727943b.
+            </font></td>
+</tr>
+</table>
+
+
+</body>
+</html>
