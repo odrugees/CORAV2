@@ -1,13 +1,12 @@
 const dbconfig = {
-  HOTS: 'vrk7xcrab1wsx4r1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
-  USER: 'uz6i7f3oaf38hyon',
-  PASSWORD: 'q9c1q5ybjgfsb4ql',
-  DB: 'i8fusb36ynxj9m7z',
-  dialect: "mysql",
+  HOTS: "ec2-107-20-104-234.compute-1.amazonaws.com:5432",
+  USER: "hwvuumqlrikpfn",
+  PASSWORD: "676a8e4043f444be84f39bcfbcd48e4a3f9c82a54eb8f89a7b59e1703192a057",
+  DB: "dcgfm523rhg320",
+  dialect: "postgres",
   pool: {
     max: 5,
     min: 0,
-    acquire: 30000,
     idle: 10000
   }
 };

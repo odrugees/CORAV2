@@ -69,13 +69,15 @@ async function crearUsuario(req, res) {
 
   //Ejecucion metodo
   dbManager.Usuario.create(nuevoUsuario).then(
-    data => {
-      res.send(data);
-    }
+    res.status(200).send({
+      status: 1,
+      message: "Usuario creado correctamente"
+    })
   ).catch(
     e => {
       console.log(e);
       res.status(500).send({
+        status: 0,
         message: e.name,
         error: e.parent.sqlMessage
       });
@@ -125,6 +127,7 @@ async function actualizarUsuario(req, res) {
   } catch (e) {
     console.log(e);
     res.status(500).send({
+      status: 0,
       message: e.name,
       error: e.parent.sqlMessage
     });
@@ -190,7 +193,8 @@ async function credencialesUsuario(req, res) {
       res.status(200).json({
         status: 1,
         message: "Correcto",
-        usuarioId: usuario.usuarioId
+        usuarioId: usuario.usuarioId,
+        usuarioTipo: usuario.usuarioTipo
       });
     }
 
